@@ -22,7 +22,7 @@ class GreetingController {
 }
 
 @RestController
-public class TomcatController {
+class TomcatController {
 
     @GetMapping("/hello")
     public Collection<String> sayHello() {
